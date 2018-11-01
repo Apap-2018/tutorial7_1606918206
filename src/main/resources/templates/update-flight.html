@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.org">
+
+<head>
+	<title> Add Pilot </title>
+	<object th:include="fragments/fragment :: header" th:remove="tag"></object>
+</head>
+<body>
+<nav th:replace="fragments/fragment :: navbar"></nav>
+	<h2> Hello! </h2>
+	
+	<h3> Update Penerbangan </h3>
+	
+	<form th:action="@{|/flight/update/${flight.flightNumber}|}" method="POST">
+		
+		Origin: <br>
+		<input type="text" name="origin"/>
+		<br>
+		Destination: <br>
+		<input type="text" name="destination"/>
+		<br>
+		Time: <br>
+		<input type="date" name="time" />
+		<br><br>
+		<button type="submit"> Submit</button>
+	</form>
+</body>
+</html>
