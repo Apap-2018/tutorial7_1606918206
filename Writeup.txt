@@ -1,0 +1,6 @@
+pada tutorial kali ini saya belajar mengenai web service, dan membuat web service untuk tutorial 7 ada 2 hal yang dibuat 
+yaitu service producer dan service consumer, pada service consumer saya belajar cara membuat mockserver yang berguna 
+sebagai tempat untuk pengerjaan development secara paralel agar lebih cepat
+
+Pada latihan saya belajar membuat web service untuk class flight dengan mengubah controllernya, lalu saya belajar cara menggunakan
+web service untuk mengambil data dari layanan web service yang disediakan website lain agar datanya bisa diakses lewat web saya.
